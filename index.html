@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile/NatsukiMorita</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+      <h1><a href="#">Profile</a></h1>
+      <button class="site_header_navbtn" type="button">
+        <span></span>
+      </button>
+      <nav class="site_header_nav">
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#photo">SKILL</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="mainvisual">
+      <img src="img/mainvisual.JPEG" alt="メインの画像">
+    </div>
+    <section id="about" class="wrapper">
+      <h2 class="section_title">ABOUT</h2>
+      <div class="about_content">
+        <img src="img/profile.webp" alt="自身の画像">
+        <div class="text">
+          <h3 class="content_title">Morita Natsuki</h3>
+          <p>
+            2024年に大学を卒業後、IT企業でディレクターとして勤務していました。しかし、学生時代からエンジニアリングに興味があり、独学を続けるうちに「やはりこの道に挑戦したい！」という思いが強くなり、退職を決意しました。<br>現在はエンジニアを目指し、職業訓練に通いながらスキルを磨いています。新たなキャリアに向けて、日々挑戦中です！
+          </p>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button id="toggleTimelineBtn">年表を見る</button>
+      </div>  
+      <section class="timeline hidden"  id="timeline" aria-label="人生年表">  
+          <article class="timeline-item left">
+            <div class="content">
+              <time datetime="2017">2017年〜2020年</time>
+              <p>
+                高校時代はダンス部に所属。<br>
+                未経験からのスタートでしたが、仲間とともに日々練習を重ね、全国大会へ出場しました。
+              </p>
+            </div>
+          </article>
+          
+          <article class="timeline-item right">
+            <div class="content">
+              <time datetime="2020">2020年</time>
+              <p>
+                大学に入学。<br>
+                コロナ禍の影響で活動が制限される中、「自分に何ができるか」を模索し、TOEICや宅地建物取引士の資格取得に挑戦しました。
+              </p>
+            </div>
+          </article>
+          
+          <article class="timeline-item left">
+            <div class="content">
+              <time datetime="2021">2021年</time>
+              <p>
+                就活系YouTubeチャンネルの運用に参画。<br>
+                編集から始まり、企画・撮影など幅広い業務に携わりました。<br>
+                約10ヶ月で登録者数を2.2万人増やすことに貢献しました。
+              </p>
+            </div>
+          </article>
+          
+          <article class="timeline-item right">
+            <div class="content">
+              <time datetime="2022">2022年</time>
+              <p>
+                長期インターンに参加。<br>
+                EC支援企業にて、新規事業の立ち上げに参画。<br>
+                インフルエンサーとの契約〜ECサイトを通じた商品販売までを一貫して経験しました。
+              </p>
+            </div>
+          </article>
+          
+          <article class="timeline-item left">
+            <div class="content">
+              <time datetime="2023">2023年</time>
+              <p>
+                学業と自己探求の時間。<br>
+                卒業前の期間に、四国一周やヨーロッパ2週間旅行を通して視野を広げました。<br>
+                同時に、Progateでのプログラミング学習やFP3級の資格取得にも取り組みました。
+              </p>
+            </div>
+          </article>
+          
+          <article class="timeline-item right">
+            <div class="content">
+              <time datetime="2024">2024年</time>
+              <p>
+                社会人としてのスタート。<br>
+                株式会社メンバーズに入社し、4ヶ月間の研修を経て公式LINEの運用業務に従事。<br>
+                エンジニアリングへの関心が高まり、「ものづくりに直接関わりたい」と思うようになり退職。<br>
+                現在は職業訓練に通いながら、フロントエンドエンジニアを目指して学習中です。
+              </p>
+            </div>
+          </article>    
+      </section>
+    </section>
+    
+
+    <section id="photo" class="wrapper">
+      <h2 class="section_title">SKILL</h2>
+      <ul>
+        <li>
+          <img src="img/photo1.png" alt="イラスト1">
+            <h3 class="content_title">コーディング</h3>
+            <p>HTML / CSS / JavaScript  / PHP / WordPress</p>
+        </li>
+        <li>
+          <img src="img/photo2.png" alt="イラスト2">
+          <h3 class="content_title">デザイン</h3>
+          <p>Illustrator / Photoshop / XD / Figma</p>
+        </li>
+        <li>
+          <img src="img/photo3.png" alt="イラスト3">
+          <h3 class="content_title">その他 使用可能</h3>
+          <p>Excel / Word / Googleスプレッドシート / Googleスライド / zoom / Slack</p>
+        </li>
+      </ul>
+    </section>
+    
+    <section id="works" class="wrapper">
+      <h2 class="section_title">WORKS</h2>
+      <h3 class="section_subtitle">コーディング</h3>
+      <p>タップでサイトに遷移します。</p>
+      <ul class="works_site">
+          <li class="works_card">
+            <a href="https://intp.site/2614/ANDANTE/"><img src="img/ANDANTE.webp" alt="ANDANTEサイト"></a>
+            <h4 class="content_title">Cafeサイト</h4>
+          </li>
+          <li class="works_card">
+            <a href="https://intp.site/2614/CHALON/"><img src="img/CHALON.webp" alt="chalonサイト"></a>
+            <h4 class="content_title">ケーキ屋さんのホームページ</h4>
+          </li>
+          <li class="works_card">
+            <a href="https://intp.site/2614/animal-hospital/"><img src="img/animal-hospital.webp" alt="chalonサイト"></a>
+            <h4 class="content_title">動物病院サイト</h4>
+          </li>
+      </ul>
+
+      <h3 class="section_subtitle">イラスト</h3>
+      <ul class="works_illust">
+          <li class="works_card">
+            <img src="img/illust1.PNG" alt="イラスト1">
+            <h4 class="content_title">February</h4>
+            <p>バレンタインデーをイメージしました</p>
+          </li>
+          <li class="works_card">
+            <img src="img/illust2.PNG" alt="イラスト2">
+            <h4 class="content-title">June</h4>
+            <p>梅雨の時期でもポジティブな<br>イメージで描きました</p>
+          </li>
+          <li class="works_card">
+            <img src="img/illust3.PNG" alt="イラスト3">
+            <h4 class="content_title">January</h4>
+            <p>新しい年が始まるワクワク感を<br>ピンクで表現しました</p>
+          </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="wrapper">
+      <h2 class="section_title">CONTACT</h2>
+      <form action="program.php" method="post">
+          <dl>
+              <div class="form_item">
+                  <dt>お名前</dt>
+                  <dd><input type="text" name="userName" required></dd>
+              </div>
+              <div class="form_item">
+                  <dt>メールアドレス</dt>
+                  <dd><input type="email" name="userEmail" required></dd>
+              </div>
+              <div class="form_item">
+                  <dt>お問い合わせ内容</dt>
+                  <dd><textarea name="message" required></textarea></dd>
+              </div>
+          </dl>
+          <div class="form_submit">
+              <input type="submit" value="送信する">
+          </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <small>&copy; Interplan-IT-School</small>
+  </footer>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jQuery-inView.min.js"></script>
+  <script src="js/slick-1.8.1 2/slick/slick.min.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
